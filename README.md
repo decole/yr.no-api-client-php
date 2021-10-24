@@ -128,7 +128,7 @@ $api = new YrNoClient($location, $lang);
 $data = $api->location()->suggest('moscow'); // Read on to explore all available methods
 ```
 
-##API methods using Laravel facades:
+## API methods using Laravel facades:
 
 **Location**
 ```php
