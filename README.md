@@ -1,5 +1,11 @@
 # Yr.no API Client PHP
 
+Install by composer
+
+``` bash
+$ composer require decole/yr-no
+```
+
 A client library written in PHP with Laravel support.
 
 > This library uses unofficial publicly accessible API endpoints of the website https://www.yr.no, so keep in mind that some endpoints could stop working anytime. Anyway, open an issue if something is broken or missing.
