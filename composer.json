@@ -1,9 +1,18 @@
 {
     "name": "decole/yr-no",
     "description": "yr.no api php client",
-    "type": "project",
+    "type": "library",
+    "require": {
+        "php": "^7.4||^8.0",
+        "guzzlehttp/guzzle": "^6.4||^7.0",
+        "ext-json": "*"
+    },
     "license": "MIT",
-    "version": "1.1.1",
+    "autoload": {
+        "psr-4": {
+            "Decole\\YrNo\\": "src/"
+        }
+    },
     "authors": [
         {
             "name": "Galochkin Sergey",
@@ -20,16 +29,7 @@
             }
         }
     },
-    "autoload": {
-        "psr-4": {
-            "Decole\\YrNo\\": "src/"
-        }
-    },
-    "require": {
-        "php": "^7.4||^8.0",
-        "guzzlehttp/guzzle": "^6.4||^7.0",
-        "ext-json": "*"
-    },
     "minimum-stability": "dev",
-    "prefer-stable": true
+    "prefer-stable": true,
+    "version": "1.1.1"
 }
